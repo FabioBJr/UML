@@ -1,6 +1,7 @@
 ```mermaid
 classDiagram
-    class iPhone{ 
+    class iPhone{
+    +int number
     }
     
     iPhone *--> "0..1" ReprodutorMusical 
