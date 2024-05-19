@@ -1,5 +1,5 @@
 # Class diagram
-I've learned a little bit about UML with [Mermaid](https://mermaid.js.org/) and will be usefull for future projects.
+I've learned a little bit about UML with [Mermaid](https://mermaid.js.org/) and will be extremely useful for future projects.
 
 ```mermaid
 classDiagram
