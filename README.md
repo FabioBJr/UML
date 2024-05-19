@@ -3,9 +3,9 @@ classDiagram
     class iPhone{ 
     }
     
-    iPhone --> ReprodutorMusical 
-    iPhone --> AparelelhoTelefonico
-    iPhone --> NavegadorInternet
+    iPhone *--> "0..1" ReprodutorMusical 
+    iPhone --o "1" AparelelhoTelefonico
+    iPhone --> "1..*" NavegadorInternet
 
     class ReprodutorMusical {
     +tocar()
